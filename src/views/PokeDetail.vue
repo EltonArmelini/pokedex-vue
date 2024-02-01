@@ -152,17 +152,18 @@ text-align: center;
   
 
 <script lang="ts" setup>
+// Configuración del componente usando la Composición API
 import PokeService from "@/services/PokeService";
-import { ref, onMounted } from "vue";
+import { onMounted } from "vue";
 import { RouterLink, useRoute } from "vue-router";
 
 const service = new PokeService();
 const pokemon = service.getPokeDetail();
 const route = useRoute();
 
+// Función que se ejecuta después de que el componente está montado
 onMounted(async () => {
     const pokElm = route.params.id;
     await service.fetchById(pokElm);
 });
-
 </script>

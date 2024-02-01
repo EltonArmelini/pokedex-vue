@@ -5,7 +5,7 @@ interface IPoke {
   image?: string;
   weight?: number;
   height?: number;
-  species?: string
+  species?: string;
   type?: string[]; // Puede haber más de un tipo, por eso es un array
   ability?: string;
   hiddenAbility?: string; // Habilidad oculta
@@ -17,7 +17,5 @@ interface IPoke {
     specialDefense?: number;
     speed?: number;
   };
-
 }
-
 export default IPoke;

@@ -1,24 +1,51 @@
-# vue-pokedex
+# Pokedex Vue
 
-## Project setup
-```
-npm install
-```
+> Pokedex Vue es una aplicación web que muestra información sobre Pokémon utilizando Vue.js en su version 3.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+---
+## Características
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- Lista de Pokémon con detalles como número, nombre, peso y altura.
+- Detalles específicos de cada Pokémon, como estadísticas base y habilidades.
+- Capacidad para ordenar la lista de Pokémon por número, peso o altura en orden ascendente o descendente.
+---
+## Instalación
 
-### Lints and fixes files
-```
-npm run lint
-```
+1. Clona el repositorio:
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+   ```bash
+   git clone https://github.com/tu-usuario/pokedex-vue.git
+    ``` 
+
+2. Ingresa al directorio del proyecto:
+
+    ```bash
+    cd pokedex-vue
+    ```
+
+3. Instala las dependencias:
+    ```bash
+    npm install
+    ```
+
+4. Inicia la aplicación:
+
+    ```bash
+    npm run serve
+    ```
+    La aplicación estará disponible en http://localhost:8080.
+---
+## Uso
+> Navega a través de la lista de Pokémon en la página principal.
+
+> Haz clic en un Pokémon para ver detalles adicionales.
+
+> Utiliza los selectores de orden para ordenar la lista de Pokémon según tus preferencias.
+
+
+---
+## Tecnologías Utilizadas
+* Vue.js
+* TypeScript
+* SCSS
+* FontAwesome
