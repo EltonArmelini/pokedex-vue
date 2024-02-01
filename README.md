@@ -14,7 +14,7 @@
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/tu-usuario/pokedex-vue.git
+   git clone https://github.com/EltonArmelini/pokedex-vue.git
     ``` 
 
 2. Ingresa al directorio del proyecto:
